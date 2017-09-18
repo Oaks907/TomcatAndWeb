@@ -11,6 +11,7 @@ import java.util.Map;
 
 /**
  * Created by haifei on 2017/9/17.
+ *
  */
 public class HTTPServer1 {
     private static Map servletCache = new HashMap();
@@ -125,3 +126,33 @@ public class HTTPServer1 {
         socket.close();
     }
 }
+/*
+POST /servlet/UploadServlet HTTP/1.1
+        Host: localhost:8080
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0
+        Accept: text/html,application/xhtml+xml,application/xml;q=0.9,**//*
+/
+/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Content-Type: multipart/form-data; boundary=---------------------------254192976419214
+Content-Length: 401
+Referer: http://localhost:8080/hello6.htm
+Cookie: _ga=GA1.1.151271314.1490961834; Idea-33fbc508=87f8bcbc-8575-43a5-a7cb-c572ae87c841
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1/
+
+-----------------------------254192976419214
+Content-Disposition: form-data; name="filedata"; filename="FromClient.txt"
+Content-Type: text/plain
+
+Data1 in FromClient.txt
+Data2 in FromClient.txt
+Data3 in FromClient.txt
+Data4 in FromClient.txt
+-----------------------------254192976419214
+Content-Disposition: form-data; name="submit"
+
+upload
+-----------------------------254192976419214--
+*/
