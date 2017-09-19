@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d32a6f2b-5f93-4f71-b212-f6bd0ae26644" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter03/helloapp/WEB-INF/classes/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/chapter03_war_exploded/WEB-INF/classes/web.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter03/chapter03.iml" afterPath="$PROJECT_DIR$/chapter03/chapter03.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/chapter03/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/chapter03/helloapp/WEB-INF/web.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/chapter03/web/index.jsp" afterPath="$PROJECT_DIR$/chapter03/helloapp/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +26,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter03/web/index.jsp">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter03/helloapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter03/helloapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter03/helloapp/hello.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -74,6 +98,11 @@
         <option value="$PROJECT_DIR$/cahpter01/src/server/root/hello6.htm" />
         <option value="$PROJECT_DIR$/cahpter01/src/server/UploadServlet.java" />
         <option value="$PROJECT_DIR$/cahpter01/src/server/HTTPServer1.java" />
+        <option value="$PROJECT_DIR$/chapter03/helloapp/login.htm" />
+        <option value="$PROJECT_DIR$/chapter03/src/mypack/DispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/chapter03/helloapp/WEB-INF/mytaglib.tld" />
+        <option value="$PROJECT_DIR$/chapter03/helloapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/chapter03/helloapp/hello.jsp" />
       </list>
     </option>
   </component>
@@ -94,7 +123,7 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-238" />
+    <option name="x" value="-267" />
     <option name="y" value="-1088" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
@@ -160,7 +189,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -178,7 +207,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="helloapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TomcatAndWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TomcatAndWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter03" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helloapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -195,13 +242,16 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter03/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter03/helloapp/index.jsp" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.291954" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\TomcatAndWeb\chapter03\helloapp\WEB-INF" />
+      <recent name="D:\IdeaProjects\TomcatAndWeb\chapter03\helloapp\WEB-INF\lib" />
+      <recent name="D:\IdeaProjects\TomcatAndWeb\chapter03\helloapp\WEB-INF\classes" />
       <recent name="D:\IdeaProjects\TomcatAndWeb\cahpter01\src\server\root" />
     </key>
   </component>
@@ -264,6 +314,9 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="cahpter01" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="login.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TomcatAndWeb/chapter03/helloapp/login.htm">
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.45" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
@@ -750,11 +803,12 @@
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 8089" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.45" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8089/index.jsp" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="chapter03:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="helloworld" />
+            <option name="CONTEXT_PATH" value="" />
           </settings>
         </artifact>
       </deployment>
@@ -822,17 +876,19 @@
         </option>
       </method>
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8089" />
       <item index="1" class="java.lang.String" itemvalue="Application.HTTPServer" />
       <item index="2" class="java.lang.String" itemvalue="Application.HTTPClient" />
       <item index="3" class="java.lang.String" itemvalue="Application.HTTPServer1" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.login.htm" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.HTTPServer1" />
-        <item index="1" class="java.lang.String" itemvalue="Application.HTTPServer" />
-        <item index="2" class="java.lang.String" itemvalue="Application.HTTPClient" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.login.htm" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HTTPServer1" />
+        <item index="2" class="java.lang.String" itemvalue="Application.HTTPServer" />
+        <item index="3" class="java.lang.String" itemvalue="Application.HTTPClient" />
       </list>
     </recent_temporary>
   </component>
@@ -852,15 +908,15 @@
       <workItem from="1505638240057" duration="1999000" />
       <workItem from="1505640403590" duration="16500000" />
       <workItem from="1505749233320" duration="443000" />
-      <workItem from="1505750516186" duration="675000" />
+      <workItem from="1505750516186" duration="4688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19617000" />
+    <option name="totallyTimeSpent" value="23630000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-238" y="-1088" width="1936" height="1066" extended-state="6" />
+    <frame x="-267" y="-1088" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1070,10 +1126,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/chapter03/src/mypack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/helloapp/WEB-INF/classes/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/helloapp/WEB-INF/mytaglib.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/src/mypack/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/helloapp/login.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/helloapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/helloapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/helloapp/hello.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1132,7 +1246,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>chapter03</last-edited>
+          <last-edited>Web|chapter03</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
