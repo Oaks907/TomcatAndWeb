@@ -5,15 +5,15 @@
 <!-- a tag library descriptor -->
 
 <taglib>
-  <tlib-version>1.1</tlib-version>
-  <jsp-version>2.1</jsp-version>
-  <short-name>mytaglib</short-name>
+  <tlibversion>1.1</tlibversion>
+  <jspversion>2.1</jspversion>
+  <shortname>mytaglib</shortname>
   <uri>/mytaglib</uri>
 
   <tag>
     <name>hello</name>
-    <tag-class>mypack.HelloTag</tag-class>
-    <body-content>empty</body-content>
+    <tagclass>mypack.HelloTag</tagclass>
+    <bodycontent>empty</bodycontent>
     <info>Just Says Hello</info>
   </tag>
 

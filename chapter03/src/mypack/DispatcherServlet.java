@@ -8,7 +8,7 @@ import java.io.IOException;
  */
 public class DispatcherServlet extends GenericServlet {
 
-    private String target = "/hello.jsp";
+    private String target = "/hello-tld.jsp";
 
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
