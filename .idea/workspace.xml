@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d32a6f2b-5f93-4f71-b212-f6bd0ae26644" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter04/chapter04.iml" afterPath="$PROJECT_DIR$/chapter04/chapter04.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter04/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/chapter04/web/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,12 +23,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter03/helloapp/index.jsp">
+      <file leaf-file-name="RequestInfoServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter04/src/mypack/RequestInfoServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1239">
+              <caret line="59" column="20" lean-forward="false" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,28 +38,8 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter03/helloapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
+            <state relative-caret-position="542">
               <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hello.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter03/helloapp/hello.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hello-tld.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter03/helloapp/hello-tld.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -72,35 +55,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DispatcherServlet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter03/src/mypack/DispatcherServlet.java">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter04/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="273">
+              <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloTag.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter03/src/mypack/HelloTag.java">
+      <file leaf-file-name="chapter04.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter04/chapter04.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mytaglib.tld" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter03/helloapp/WEB-INF/mytaglib.tld">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -111,8 +80,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -156,6 +125,8 @@
         <option value="$PROJECT_DIR$/chapter03/helloapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/chapter03/helloapp/WEB-INF/hello-tld.jsp" />
         <option value="$PROJECT_DIR$/chapter03/src/mypack/DispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/chapter04/src/mypack/RequestInfoServlet.java" />
+        <option value="$PROJECT_DIR$/chapter04/web/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -199,7 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -240,7 +210,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,29 +224,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chapter03" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TomcatAndWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TomcatAndWeb" />
+              <option name="myItemId" value="chapter04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chapter03" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mypack" />
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -284,6 +240,7 @@
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,22 +248,23 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter03/helloapp/index.jsp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter04/web/WEB-INF/lib" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.291954" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\TomcatAndWeb\chapter03\helloapp" />
-      <recent name="D:\IdeaProjects\TomcatAndWeb\chapter03\src\mypack" />
-      <recent name="D:\IdeaProjects\TomcatAndWeb\chapter03\helloapp\WEB-INF" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\TomcatAndWeb\chapter04\web\WEB-INF\lib" />
       <recent name="D:\IdeaProjects\TomcatAndWeb\chapter03\helloapp\WEB-INF\lib" />
       <recent name="D:\IdeaProjects\TomcatAndWeb\chapter03\helloapp\WEB-INF" />
       <recent name="D:\IdeaProjects\TomcatAndWeb\chapter03\helloapp\WEB-INF\classes" />
       <recent name="D:\IdeaProjects\TomcatAndWeb\cahpter01\src\server\root" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\TomcatAndWeb\chapter03\helloapp" />
+      <recent name="D:\IdeaProjects\TomcatAndWeb\chapter03\src\mypack" />
+      <recent name="D:\IdeaProjects\TomcatAndWeb\chapter03\helloapp\WEB-INF" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8089">
@@ -860,9 +818,9 @@
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8089/index.jsp" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="chapter03:war exploded">
+        <artifact name="chapter04:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
@@ -923,7 +881,11 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method />
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="chapter04:war exploded" />
+        </option>
+      </method>
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8089" />
@@ -959,12 +921,13 @@
       <workItem from="1505749233320" duration="443000" />
       <workItem from="1505750516186" duration="5281000" />
       <workItem from="1505836143590" duration="4392000" />
-      <workItem from="1506011637163" duration="24000" />
+      <workItem from="1506011637163" duration="1931000" />
+      <workItem from="1506094547631" duration="1516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28639000" />
+    <option name="totallyTimeSpent" value="32062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-267" y="-1088" width="1874" height="1096" extended-state="6" />
@@ -984,14 +947,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26350605" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26736495" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1000,7 +964,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1038,6 +1001,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/chapter04/src/mypack/RequestInfoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter03/helloapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1082,9 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1092,9 +1062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1279,11 +1246,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter03/src/mypack/HelloTag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="294">
           <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1291,22 +1255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/helloapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/helloapp/hello.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1319,6 +1267,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/src/mypack/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/helloapp/hello.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/chapter04.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter03/helloapp/login.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -1327,10 +1306,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/src/mypack/DispatcherServlet.java">
+    <entry file="file://$PROJECT_DIR$/chapter03/helloapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        <state relative-caret-position="542">
+          <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/src/mypack/RequestInfoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1239">
+          <caret line="59" column="20" lean-forward="false" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1391,7 +1378,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|chapter03</last-edited>
+          <last-edited>chapter04</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
