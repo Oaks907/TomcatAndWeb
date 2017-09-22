@@ -3,14 +3,27 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+
+    <context-param>
+        <param-name>emailOfwebmaster</param-name>
+        <param-value>webmaster@hotmail.com</param-value>
+    </context-param>
     
     <servlet>
         <servlet-name>info</servlet-name>
         <servlet-class>mypack.RequestInfoServlet</servlet-class>
     </servlet>
-    
     <servlet-mapping>
         <servlet-name>info</servlet-name>
         <url-pattern>/info</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ContextTest</servlet-name>
+        <servlet-class>mypack.ContextTesterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ContextTest</servlet-name>
+        <url-pattern>/contextText</url-pattern>
     </servlet-mapping>
 </web-app>
