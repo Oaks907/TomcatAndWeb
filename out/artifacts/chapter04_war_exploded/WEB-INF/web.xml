@@ -8,7 +8,7 @@
         <param-name>emailOfwebmaster</param-name>
         <param-value>webmaster@hotmail.com</param-value>
     </context-param>
-    
+
     <servlet>
         <servlet-name>info</servlet-name>
         <servlet-class>mypack.RequestInfoServlet</servlet-class>
@@ -17,7 +17,7 @@
         <servlet-name>info</servlet-name>
         <url-pattern>/info</url-pattern>
     </servlet-mapping>
-    
+
     <servlet>
         <servlet-name>ContextTest</servlet-name>
         <servlet-class>mypack.ContextTesterServlet</servlet-class>
@@ -25,5 +25,14 @@
     <servlet-mapping>
         <servlet-name>ContextTest</servlet-name>
         <url-pattern>/contextText</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>lifeInit</servlet-name>
+        <servlet-class>mypack.LifeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>lifeInit</servlet-name>
+        <url-pattern>/lifeInit</url-pattern>
     </servlet-mapping>
 </web-app>
