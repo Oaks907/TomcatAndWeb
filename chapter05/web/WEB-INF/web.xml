@@ -67,4 +67,13 @@
         <url-pattern>/cookie1</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>dirtester</servlet-name>
+        <servlet-class>mypack.DirTestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dirtester</servlet-name>
+        <url-pattern>/dirtester</url-pattern>
+    </servlet-mapping>
+
 </web-app>
