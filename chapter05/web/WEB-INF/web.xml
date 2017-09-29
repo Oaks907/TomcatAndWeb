@@ -58,4 +58,13 @@
         <url-pattern>/cookie</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>cookie1</servlet-name>
+        <servlet-class>mypack.Cookie1Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cookie1</servlet-name>
+        <url-pattern>/cookie1</url-pattern>
+    </servlet-mapping>
+
 </web-app>
