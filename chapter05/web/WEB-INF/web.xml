@@ -111,4 +111,13 @@
         <servlet-name>greet</servlet-name>
         <url-pattern>/greet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>hello1</servlet-name>
+        <servlet-class>mypack.HelloServlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>hello1</servlet-name>
+        <url-pattern>/hello1</url-pattern>
+    </servlet-mapping>
 </web-app>
