@@ -1,0 +1,7 @@
+
+tsquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(€µº‰8Òè™í+
+ssquid:S1450"WRemove the "username" field and declare it as a local variable in the relevant methods.(€µº‰8ŒÓ™í+
+Csquid:S1989"'Add a "try/catch" block for "getBytes".(ëëí8…«ï™í+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÈÂ›™í+
+bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÈÂ›™í+
+Dsquid:S1989"(Add a "try/catch" block for "getWriter".(¾šçŞ8Áæ™í+
